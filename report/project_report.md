@@ -76,8 +76,52 @@ Biography movies have the highest average rating, followed by History and War. H
 
 One of factors that determine the success of a movie is revenue. Knowing what type of movie is most profitable helps movie investors make business decisions. In this section we will explore budget and revenue for each genre and factors that affect movie revenue.
 
+![](image/revenue.png)
 
+We can see that Animation, Musical and Adventure movies have greater domestic revenue than other genres. History movies have very low domestic revenue and War movies do not have domestic revenue. This might explain why there are very few movies in these genres in the market.
 
-We can see that Animation, Musical and Adventure movies have greater domestic revenue than other genres. History movies have very low revenue and War movies do not have domestic revenue. This might explain why there are very few movies in these genres in the market.
+Animation and Adventure movies also have most worldwide revenue, followed by SciFi and Fantasy movies. War movies have the lowest worldwide revenue.
+
+One thing that surprises me is that Crime and Action movies do not make much revenue since these genres are popular. After looking into detail, I found out that some Crime and Action movies have huge budgets but only made little profits. For example, Crime movie Live by Night has $65 million budgets but only made $10 million in the US. Action movie John Carter has $250 million budgets and only made $73 million in the US. Even though Action movies did not make much revenue in the US, they earned a lot through international box office sales. 
+
+### Which genre is associated with higher budget?
+
+![](image/budget.png)
+
+From the barplot we see that Adventure, SciFi and Animation movies have higher budgets. Horror and Music movies have the lowest budgets.
+
+We notice that War, History and Crime movies have the average domestic revenue below $2 million but their budgets are between $33 million and $40 million. This is not a good sign for movie investors to invest in these types of movies.
+
+By looking at the average budget and revenue for each genre, it is still hard to conclude what type of movie is worth to invest in as some types of movie with high revenue often have high budgets, such as Adventure and Animation movies. Therefore, we need to look at the return on investment (ROI) for each genre to determine what genre has the best return.
+
+### Which genre has the biggest return on investment (ROI)?
+
+Return on investment (ROI) is a measure of the efficiency of an investment. It is calculated as profit divided by budget. Here we used worldwide revenue to calculate ROI.
+
+![](image/average_roi.png)
+
+The plot shows that there is an unusual peak in 2007, and it happens to both Horror and Mystery genres. This is an indication of outliers, which some movies might have very low budgets but made huge revenue. I removed these outliers in order to get accurate result for each genre.
+
+![](image/outlier.png)
+
+We can see that the movie Paranormal Activity in 2007 had a budget of $15,000 and worldwide gross of $193,340,800 for a return of 1,288,938.67%, which the average ROI will not reflect the true insight if I include it. The genres for this movie are Horror and Mystery, that is why there is a peak in the plot above.
+
+After removing this outlier, the plot looks like this:
+
+![](image/updated_roi.png)
+
+* Horror movies had very large ROI in 2003 and 2015, and overall this type of movie had a large ROI all the time.
+* Mystery movies did not have ROI as large as Horror movies, but this genre also had good ROI.
+* Thriller, Fantasy, Romance movies had ROI under 500% each year before 2016, but their ROI has increased a lot in 2017.
+* Most of the time War and Western movies had the lowest ROI.
 
 ## Conclusions
+
+Results that we take away with this report are:
+
+* Drama, Comedy and Action genres are most popular genres. War, Western and Musical genres are not favored by the majority.
+* While the number of Comedy movies is the second largest, it has decreased over time.
+* Most movies have rating between 5 and 7. History, Biography and War movies tend to have higher rating. Horror movies have the lowest average rating.
+* Animation and Adventure movies are most profitable. War movies made the least revenue.
+* Adventure, Animation and SciFi movies have large budgets while they brought huge revenue. Horror and Music movies have the lowest budgets. War, History and Crime movies made way less money compared to their large budgets.
+* Horror and Mystery movies have the best ROI. Thriller, Fantasy and Romance movies are also worth to invest in. War and Western movies have the lowest ROI compared to other genres.
