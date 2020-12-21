@@ -35,5 +35,10 @@ These are columns from the dataset that I want:
 
 After data cleaning, the dataset looks like this:
 
+![](image/dataframe.png)
+
+### What genre are most popular?
+
+![](image/movie_count.png)
 
 ## Conclusions
