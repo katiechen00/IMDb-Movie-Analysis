@@ -7,7 +7,7 @@ I analyzed IMDb movie data from 2000 to 2020 using Exploratory Data Analysis and
 * Which genre is most profitable? What genres are associated with higher budgets?
 * Which genre has the biggest return on investment (ROI)?
 
-The final report can be found here.
+The final report can be found [here](https://github.com/katiechen00/IMDb-Movie-Analysis/blob/main/report/project_report.md).
 
 The code that I used to scrape data from IMDb website can be found here.
 
