@@ -76,4 +76,8 @@ Biography movies have the highest average rating, followed by History and War. H
 
 One of factors that determine the success of a movie is revenue. Knowing what type of movie is most profitable helps movie investors make business decisions. In this section we will explore budget and revenue for each genre and factors that affect movie revenue.
 
+
+
+We can see that Animation, Musical and Adventure movies have greater domestic revenue than other genres. History movies have very low revenue and War movies do not have domestic revenue. This might explain why there are very few movies in these genres in the market.
+
 ## Conclusions
