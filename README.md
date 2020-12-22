@@ -9,6 +9,8 @@ I analyzed IMDb movie data from 2000 to 2020 using Exploratory Data Analysis and
 
 The final report can be found [here](https://github.com/katiechen00/IMDb-Movie-Analysis/blob/main/report/project_report.md).
 
+The Tableau dashboard for this analysis can be found [here](https://public.tableau.com/views/IMDb_movie_analysis/IMDbMovieAnalysis?:language=en&:display_count=y&publish=yes&:origin=viz_share_link).
+
 The code that I used to scrape data from IMDb website can be found [here](https://nbviewer.jupyter.org/github/katiechen00/IMDb-Movie-Analysis/blob/main/imdb_data_scraper.ipynb).
 
 The notebook that I did data cleaning, visualizations and data analysis can be found [here](https://nbviewer.jupyter.org/github/katiechen00/IMDb-Movie-Analysis/blob/main/movie_analysis.ipynb).
